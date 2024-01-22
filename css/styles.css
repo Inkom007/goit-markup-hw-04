@@ -136,6 +136,7 @@ color: #404bbf;
 /* Hero */
 
 .hero {
+  max-width: 1440px;
   padding: 188px 0;
   background-color: #2e2f42;
   background-image: linear-gradient(to bottom, rgba(69, 71, 97, 0.7), 
@@ -198,6 +199,20 @@ color: #404bbf;
 
 }
 
+.icons-container {
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8E8F99;
+  background: #F4F4FD;
+}
+
+.icon-benefit {
+  margin: 24px 100px;
+  fill: none;
+}
+
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -216,7 +231,11 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
 }
 
-
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 /* Team */
 
 .section-team {
@@ -268,6 +287,30 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
 }
 
+.icons-team-container {
+  display: flex;
+  gap: 24px;
+ justify-content: center;
+margin-bottom: 32px;
+}
+
+.link-team-social {
+  background-color: #4D5AE5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ padding: 12px;
+ transition-property: none;
+}
+
+.link-team-social:hover,
+.link-team-social:focus {
+  background-color: #404BBF;
+}
+
+.icon-team {
+  fill: none;
+}
 /* Portfolio */
 
 .portfolio-item {
