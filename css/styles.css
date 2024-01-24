@@ -23,11 +23,12 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  
 }
 
 .section {
@@ -404,6 +405,16 @@ transition-duration: 250ms;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+
+.social-media {
+  margin-bottom: 16px;
+ text-align: center;
+font-size: 16px;
+line-height: 1.5;
+color: #f4f4fd;
+letter-spacing: 0.02em;
 }
 
 .icons-footer-container {
